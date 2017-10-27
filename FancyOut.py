@@ -38,7 +38,7 @@ def output(out_string, leader=0):
         leader = ""
     elif leader == 1 or leader == "indent":
         leader = "     "
-    elif leader == 2 or leader == "pointer":
+    elif leader == 2 or leader == "arrow":
         leader = "---->"
     elif leader == 3 or leader == "warning":
         leader = "#####"
